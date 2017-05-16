@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title_short: Code Dollop
 title: Code Dollop - Blobs of useful iOS development code
-email: your-email@domain.com
-description: Articles on useful iOS and Swift development techniques. 
+email: codedollop@gmail.com
+description: Articles on useful iOS and Web development techniques. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://codedollop.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrsf
 permalink: /:year/:month/:title/ # link style
 # github_username:  ""
