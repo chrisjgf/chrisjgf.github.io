@@ -1,0 +1,142 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* CSS styles can go here, normal CSS works */
+
+body{
+	background: #fff;
+	font-family: "PT Serif", Georgia, serif;
+	padding: 2rem 1.5rem;
+	line-height: 1.5;
+}
+
+h1, h2{
+	font-weight: bold;
+}
+
+h2{
+	color: #333;
+}
+
+.site-header {
+    border: none;
+}
+
+.site-header a{
+	border-bottom: none;
+}
+
+.site-header a:hover{
+	border-bottom: none;
+}
+
+.site-header a:hover{
+	color: #666;
+}
+
+.site-header:after {
+    display: block;
+    content: "";
+    width: 150px;
+    height: 1px;
+    margin: 2rem auto;
+    background-color: #ddd;
+}
+
+.site-title, .site-title:visited {
+    color: #222;
+    font-weight: bold;
+}
+
+.container-wrapper{
+	max-width: 800px;
+    margin: 0 auto;
+    font-size: 21px;
+}
+
+.wrapper{
+	padding: 0px;
+}
+
+.site-nav .trigger a{
+	font-size: 20px;
+}
+
+.post-archive h2{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #333;
+}
+
+.archive-item{
+	margin-bottom: 0.75rem;
+}
+
+.archive-item a{
+	border-bottom: 1px solid #ddd;
+	color: #222;
+}
+
+.archive-item span{
+	float: right;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+p.lead{
+	font-size: 1.375rem;
+	    margin: 0 0 .75em;
+}
+
+p.lead:after {
+    display: block;
+    content: "";
+    width: 150px;
+    height: 1px;
+    margin: 2rem auto;
+    background-color: #ddd;
+}
+
+.page-content{
+	padding: 0 0 30px 0; /* was 30px 0 */
+}
+
+.post-content p{
+	color: #555;
+}
+
+body a{
+	color: #222;
+	border-bottom: 1px solid #ddd;
+}
+
+body a:visited{
+	color: #222;
+}
+
+body a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #222;
+}
+
+.post-title{
+	color: #333;
+	font-size: 1.75em;
+}
+
+.post-meta{
+	font-size: inherit;
+	color: #aaa;
+}
+
+.site-footer a{
+	border: none;
+}
+
+.site-footer a:hover{
+	border: none;
+}
