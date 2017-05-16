@@ -9,7 +9,7 @@ categories: swift
 An image: ![View moving upon keyboard load](/assets/img/uiview-movement.gif) 
 {:/comment}
 
-So, your app looks great but, when a user goes to enter an input, the keyboard pops up and now your UITextField/UIView is covered -- the user can't see what they're typing. Let's fix that. This post is broken down into two sections: retrieving the keyboard height and moving a UIView based on that value.
+Your app looks great but, when a user goes to enter an input, the keyboard pops up and now your UITextField/UIView is covered -- the user can't see what they're typing. Let's fix that. This post is broken down into two sections: retrieving the keyboard height and moving a UIView based on that value.
 
 ## Retrieving the keyboard height 
 
