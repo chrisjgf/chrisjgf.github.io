@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Move UIView when an iOS keyboard appears or changes"
+author: Christopher Fulford
 date:   2017-05-10 17:23:00 +0100
 categories: swift
 ---
