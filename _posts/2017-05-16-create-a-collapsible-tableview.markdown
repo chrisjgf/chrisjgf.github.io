@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Create A Collapsable UITableView"
+title:  "Create A Collapsible UITableView"
 author: Christopher Fulford
 date:   2017-05-16 20:10:00
 categories: swift
 ---
 
-This is a fairly simple, no bells and whistles, collapsable UITableView. The table takes user input through row selection, then reloads the table to show data relevant to that row title. Selecting the title row again returns the user to the main view.
+This is a fairly simple, no bells and whistles, collapsible UITableView. The table takes user input through row selection, then reloads the table to show data relevant to that row title. Selecting the title row again returns the user to the main view.
 
 First up, we want to create a new object for our data. In this example I'm using an array of strings, but you can re-jiggle and play around with the code to suit your needs.
 ~~~ swift
@@ -96,4 +96,4 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 With a bit of luck, your UITableView will now be comprised of three gray rows. Selecting one of these will reload the table so that at the top is the row title, followed subsequently by the data in the section's *content* array. Selecting the cell again will return the user back to the three gray rows.
 
-Check out the project [here](https://github.com/chrisjgf/Collapsable-UITableView)!
+Check out the project [here](https://github.com/chrisjgf/Collapsible-UITableView)!
