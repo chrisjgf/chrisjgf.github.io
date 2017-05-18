@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title_short: Code Dollop
-title: "Code Dollop - Blobs of useful iOS and Web development, by Christopher Fulford"
+title: "Code Dollop - iOS and Web development tutorials, by Christopher Fulford"
 email: codedollop@gmail.com
-description: "Articles on iOS, Swift, and Web development." 
+description: "Articles and tutorials on iOS, Swift, and Web development." 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codedollop.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrsf
