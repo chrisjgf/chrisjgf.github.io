@@ -25,21 +25,21 @@ var dataForTable = [TableData]()
 var selectedIndexPath: IndexPath?
 
 override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        let dataSet1 = TableData("Oranges")
-        dataSet1.content = ["A", "B", "C"]
-        
-        let dataSet2 = TableData("Pears")
-        dataSet2.content = ["D", "E", "F", "G"]
-        
-        let dataSet3 = TableData("Apples")
-        dataSet3.content = ["H", "I"]
-        
-        dataForTable.append(dataSet1)
-        dataForTable.append(dataSet2)
-        dataForTable.append(dataSet3)
-    }
+    super.viewDidLoad()
+    
+    let dataSet1 = TableData("Oranges")
+    dataSet1.content = ["A", "B", "C"]
+    
+    let dataSet2 = TableData("Pears")
+    dataSet2.content = ["D", "E", "F", "G"]
+    
+    let dataSet3 = TableData("Apples")
+    dataSet3.content = ["H", "I"]
+    
+    dataForTable.append(dataSet1)
+    dataForTable.append(dataSet2)
+    dataForTable.append(dataSet3)
+}
 ~~~
 
 We have the data, now we need to configure the tableView to display it. Lets first tell the table how much data we want to show.
