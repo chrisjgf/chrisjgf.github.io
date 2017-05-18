@@ -96,4 +96,6 @@ override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexP
 
 With a bit of luck, your UITableView will now be comprised of three gray rows. Selecting one of these will reload the table so that at the top is the row title, followed subsequently by the data in the section's *content* array. Selecting the cell again will return the user back to the three gray rows.
 
+![Screenshot of completed project](/assets/img/collapsible-table.png) 
+
 Check out the project [here](https://github.com/chrisjgf/Collapsible-UITableView)!
