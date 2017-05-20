@@ -140,3 +140,26 @@ body a:hover{
 .site-footer a:hover{
 	border: none;
 }
+
+.pageNavigation {
+  font-size: 16px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  background: #eee; 
+  padding: 10px; 
+  border-radius: 3px; 
+  border: 1px solid #ddd; 
+}
+
+.pageNavigation a {
+  display: block;
+  max-width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.pageNavigation .next {
+  text-align: right;
+  float: right;
+}
