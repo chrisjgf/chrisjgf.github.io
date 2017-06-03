@@ -8,6 +8,8 @@ categories: swift
 
 Ever seen an iOS app where you drag a table down to reload the content? The goal here is to mimic that design, except when the UITableView is dragged down, the previously hidden view will appear and remain on-screen until the user drags the table back up.
 
+## Creating a custom view for a UITableView
+
 Create a new xib file, title it *HiddenView* and style as you wish. This xib will be the hidden view. 
 
 Now, we're going to create an IBDesignable UIView. Create a new swift file and name it *HiddenView*. Replace the contents of the file with:
@@ -48,7 +50,11 @@ import UIKit
 
 Now we have our hidden view setup, go to your desired UITableView, drag in an empty UIView toward the top, then set its class to *HiddenView*. With a bit of luck, when you run your app a custom view will be at the top of the table.
 
-We've got it, let's hide it. Go to your UITableView controller and add the following:
+We've got it, let's hide it. 
+
+## Hide/Show UIView in UITableView
+
+Go to your UITableView controller and add the following:
 
 ~~~swift
 override func viewWillAppear(_ animated: Bool) {
