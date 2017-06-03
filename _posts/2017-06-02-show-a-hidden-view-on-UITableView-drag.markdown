@@ -60,7 +60,7 @@ Go to your UITableView controller and add the following:
 override func viewWillAppear(_ animated: Bool) {
     tableView.contentInset = UIEdgeInsetsMake(Y, 0, 0, 0) // Where Y is your defined hidden view height.
 }
-~~ 
+~~~
 
 This ensures that when the table is displayed, the view will be hidden. Lastly, add:
 
