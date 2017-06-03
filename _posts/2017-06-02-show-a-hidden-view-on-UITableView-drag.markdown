@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hidden view to show on UITableView drag"
+title:  "Show a hidden view on UITableView drag"
 author: Christopher Fulford
 date:   2017-06-02 17:00:00 +0100
 categories: swift
