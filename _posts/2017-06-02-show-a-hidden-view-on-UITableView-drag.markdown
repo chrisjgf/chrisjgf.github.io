@@ -52,7 +52,7 @@ Now we have our hidden view setup, go to your desired UITableView, drag in an em
 
 We've got it, let's hide it. 
 
-## Hide/Show UIView in UITableView
+## Hide/Show UIView in UITableView
 
 Go to your UITableView controller and add the following:
 
