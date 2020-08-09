@@ -9,7 +9,9 @@ layout: default
     {% for app in site.apps %}
     <li>
       <a href="{{ app.permalink }}">
-        <img class="app-icon" src="assets/img/apps/icons/{{ app.icon }}.png" alt="Budgie iOS Icon">
+        <div>
+          <img class="app-icon" src="assets/img/apps/icons/{{ app.icon }}.png" alt="{{app.title }} icon">
+        </div>
         <div>
           <strong style="display:block">{{ app.title }}</strong>
           {{ app.description }}

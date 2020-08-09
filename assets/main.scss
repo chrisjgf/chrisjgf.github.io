@@ -54,6 +54,13 @@ h2{
 	font-size: 21px;
 }
 
+@media (max-width: 760px) { 
+	.container-wrapper{
+		width: 100%;
+		max-width: 700px;
+	}
+}
+
 .wrapper{
 	padding: 0px;
 }
@@ -131,6 +138,15 @@ body a:hover{
 	color: #aaa;
 }
 
+.footer-col {
+	display: flex;
+	width: 100%;
+}
+
+.footer-col.col-right {
+	width: auto;
+}
+
 .site-footer a{
 	border: none;
 }
@@ -162,8 +178,16 @@ body a:hover{
   float: right;
 }
 
+.footer-col-wrapper {
+	display: flex;
+	justify-items: space-between;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .footer-col.col-right{
-	float: right;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .social-media-list {
@@ -211,8 +235,9 @@ body a:hover{
 		display: flex;
 	}
 	
-	li a img {
-		max-width: 25%;
+	li a div img {
+		width: 6rem;
+		max-width: inherit;
 		margin-right: 10px;
 		display: block;
 	}
