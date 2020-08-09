@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* CSS styles can go here, normal CSS works */
-
 body{
 	background: #fff;
 	font-family: "PT Serif", Georgia, serif;
@@ -51,9 +49,9 @@ h2{
 }
 
 .container-wrapper{
-	max-width: 800px;
-    margin: 0 auto;
-    font-size: 21px;
+	width: 700px;
+	margin: 0 auto;
+	font-size: 21px;
 }
 
 .wrapper{
@@ -166,4 +164,67 @@ body a:hover{
 
 .footer-col.col-right{
 	float: right;
+}
+
+.social-media-list {
+	float:left;
+	display: flex;
+	align-items: baseline;
+	
+	li {
+		margin-right: 20px;
+	}
+	
+}
+
+.footer-col-wrapper {
+	font-size: 0.875rem;
+	color: #aaa;
+}
+
+#apps {
+	display: flex;
+  flex-wrap: wrap;
+	margin: 0;
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	
+	li {
+		flex: 1 0 45%;
+		margin: 5px;
+		list-style: none;
+		border-radius: 15px;
+		transition: .15s linear;
+		padding: 10px;
+	}
+	
+	li a {
+		display: flex;
+		border: 0;
+	}
+	
+	li:hover {
+		background: rgba(0, 0, 0, 0.1);
+	}
+	
+	li div {
+		flex-direction: column;
+		display: flex;
+	}
+	
+	li a img {
+		max-width: 25%;
+		margin-right: 10px;
+		display: block;
+	}
+	
+	li div {
+		font-weight: 200;
+	}
+	
+}
+
+#apps a{
+	color: #337ab7;
+	text-decoration: none;
+	font-size: 1.125rem;
 }

@@ -3,22 +3,20 @@ layout: default
 ---
 
 <div class="home">
+  <p class="lead">Hi, I'm Chris. I'm an app developer from the UK; Berlin living 🇩🇪</p>
 
-  <p class="lead">Hi, I'm Chris. From time to time, I come across something cool. This is where I dump that stuff. </p>
-
-  <div class="post-archive">
-    {% for post in site.posts %}
-      {% assign currentYear = post.date | date: "%Y" %}
-      {% if currentYear != date %}
-        <h2 class="archive-year">{{ currentYear }}</h2>
-        {% assign date = currentYear %}
-      {% endif %}
-        <div class="archive-item">
-          <span class="post-date archive-date">{{ post.date | date: "%B %d" }}</span>
-          <a href="{{ post.url }}">{{ post.title }}</a></div>
+  <ul id="apps">
+    {% for app in site.apps %}
+    <li>
+      <a href="{{ app.permalink }}">
+        <img class="app-icon" src="assets/img/apps/icons/{{ app.icon }}.png" alt="Budgie iOS Icon">
+        <div>
+          <strong style="display:block">{{ app.title }}</strong>
+          {{ app.description }}
+        </div>
+      </a>
+    </li>
     {% endfor %}
-  </div>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+  </ul>
 
 </div>

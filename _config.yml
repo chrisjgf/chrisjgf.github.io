@@ -13,20 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title_short: Code Dollop
-title: "Code Dollop - iOS and Web development tutorials"
-email: codedollop@gmail.com
-description: "Articles and tutorials on iOS, Swift, and Web development." 
+title_short: Christopher Fulford
+title: "Christopher Fulford | Developer, UI/UX"
+email: chrisjgf@gmail.com
+description: "I'm Chris. I'm an app developer working with Swift, Web3 and React." 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://codedollop.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: chrsf
+url: "https://chrisjgf.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: chrisjgf_
+github_username: chrisjgf
 permalink: /:year/:month/:title/ # link style
-# github_username:  ""
+
+collections:
+  apps:
+    output: true
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
