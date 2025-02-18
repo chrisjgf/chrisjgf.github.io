@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://chrisjgf.com/sitemap.xml
+Disallow:
