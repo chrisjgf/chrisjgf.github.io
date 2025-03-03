@@ -5,13 +5,25 @@
 
 body{
 	background: #fff;
-	font-family: "PT Serif", Georgia, serif;
 	padding: 2rem 1.5rem;
 	line-height: 1.5;
 }
 
-h1, h2{
-	font-weight: bold;
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 14px;
 }
 
 h2{
@@ -44,7 +56,7 @@ h2{
 
 .site-title, .site-title:visited {
     color: #222;
-    font-weight: bold;
+		font-size: 1.5rem;
 }
 
 .container-wrapper{
@@ -132,6 +144,10 @@ body a:hover{
 
 .footer-col.col-right {
 	width: auto;
+}
+
+.site-footer {
+	border: none;
 }
 
 .site-footer a{
@@ -226,7 +242,7 @@ body a:hover{
 }
 
 .timeline .date {
-	width: 3.75rem;
+	width: 6rem;
 	text-align: left;
 	margin-right: 10px;
 }
@@ -234,4 +250,40 @@ body a:hover{
 .timeline .desc {
 	flex: 1;
 	padding: 0.25rem 0.5rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	
+	ul {
+		justify-content: flex-end;
+		display: flex;
+		flex: 1;
+	}
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+
+	ul { 
+		padding-top: 0.75rem;
+	}
+
+}
+
+/* For larger screens (you can adjust the breakpoint as needed) */
+@media (min-width: 768px) {
+  .header-flex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+		gap: 0;
+  }
 }

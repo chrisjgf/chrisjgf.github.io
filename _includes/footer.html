@@ -1,16 +1,6 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <ul class="contact-list">
-          <li>
-            &copy; Christopher Fulford, {{ site.time | date: '%Y' }}.
-          </li>
-        </ul>
-      </div>
-
       <div class="footer-col col-right">
         <ul class="social-media-list">
           {% if site.github_username %}
@@ -18,7 +8,6 @@
             {% include icon-github.html username=site.github_username %}
           </li>
           {% endif %}
-
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
@@ -26,9 +15,6 @@
           {% endif %}
         </ul>
       </div>
-
     </div>
-
   </div>
-
 </footer>
