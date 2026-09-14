@@ -243,6 +243,7 @@ body a:hover{
 
 .timeline .date {
 	width: 6rem;
+	flex-shrink: 0;
 	text-align: left;
 	margin-right: 10px;
 }
